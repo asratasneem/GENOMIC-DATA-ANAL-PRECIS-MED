@@ -178,3 +178,12 @@ This project compares the transcriptomic profiles of COVID-19 and Respiratory Sy
 - Limited overlap of hub genes highlights unique molecular pathways for each disease.
 
 ---
+
+## **Acknowledgments**
+
+**Team Members:**  
+Asra Tasneem Shaik, Muni Manasa Vema, Mahima Mahabaleshwar Siddheshwar.  
+
+**Course:** Genomic Data Analytics and Precision Medicine (INFO B636).  
+
+---
