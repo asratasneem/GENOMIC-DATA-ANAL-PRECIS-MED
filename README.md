@@ -102,11 +102,6 @@ This project compares the transcriptomic profiles of COVID-19 and Respiratory Sy
 - Script: `feature_counts.sh`.
 
 ---
-
-
-
-
-
 ### **5.1 Differential Expression Analysis (DEA)**  
 - Tool: **DESeq2**  
 - Input: `gene_counts.txt`  
@@ -177,41 +172,9 @@ This project compares the transcriptomic profiles of COVID-19 and Respiratory Sy
 
 ---
 
-
-
-## **10. Execution Steps**
-
-1. **Preprocessing and Alignment**:  
-   Run Bash scripts sequentially:  
-   ```bash
-   bash download_sra_files.sh
-   bash trim_galore.sh
-   bash hisat2_alignment.sh
-   bash feature_counts.sh
-   ```
-
-2. **Analysis**:  
-   Execute the R script for DEA and WGCNA:  
-   ```bash
-   Rscript WCGA.R
-   ```
+## **9. Results Summary**  
+- **MEyellow** and **MEgrey** modules are strongly associated with COVID-19 severity.  
+- Shared hub genes (**OASL**, **TXN**, and **RBCK1**) indicate conserved antiviral and immune response pathways between COVID-19 and RSV.  
+- Limited overlap of hub genes highlights unique molecular pathways for each disease.
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
